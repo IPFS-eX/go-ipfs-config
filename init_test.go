@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ipfs/interface-go-ipfs-core/options"
+	"github.com/IPFS-eX/interface-go-ipfs-core/options"
 	crypto_pb "github.com/libp2p/go-libp2p-core/crypto/pb"
 )
 
