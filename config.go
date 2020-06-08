@@ -33,6 +33,7 @@ type Config struct {
 	Reprovider   Reprovider
 	Experimental Experiments
 	Plugins      Plugins
+	Scan         Scan
 }
 
 const (

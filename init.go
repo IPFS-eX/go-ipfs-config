@@ -86,6 +86,15 @@ func InitWithIdentity(identity Identity) (*Config, error) {
 				Type:        "basic",
 			},
 		},
+		Scan: Scan{
+			NetworkId:       1565511150,
+			Bootstrap:       []string{"tcp://127.0.0.1:10369"},
+			ListenAddr:      "127.0.0.1",
+			Port:            6001,
+			IgnoreIPv6:      true,
+			IgnoreLocalHost: true,
+			MaxNumWant:      100,
+		},
 	}
 
 	return conf, nil
